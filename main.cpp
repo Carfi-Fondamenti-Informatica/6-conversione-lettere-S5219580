@@ -10,6 +10,6 @@ int main(){
     if (ris==true){
         <<input;
     }
-    else{cout<<"False";}
+    else{cout<<"errore";}
     return 0;
 }
