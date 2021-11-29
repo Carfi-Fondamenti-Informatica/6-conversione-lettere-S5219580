@@ -1,12 +1,12 @@
 #include <iostream>
-#include "riconoscimento.h"
+#include "lib.h"
 using namespace std;
 
 int main(){
     char input=0;
     bool ris=0;
     cin>> input;
-    riconoscimento(input, ris);
+    lib(input, ris);
     if (ris==true){
         cout<<"True"<<endl <<input;
     }
