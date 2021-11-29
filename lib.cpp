@@ -1,6 +1,6 @@
 
-#include "riconoscimento.h"
-void riconoscimento(char &a,bool &ris){
+#include "lib.h"
+void lib(char &a,bool &ris){
     if (a<91&&a>64) {
         ris=true;
         a=a+32;}
