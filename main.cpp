@@ -8,7 +8,7 @@ int main(){
     cin>> input;
     lib(input, ris);
     if (ris==true){
-        <<input;
+        cout<<input;
     }
     else{cout<<"errore";}
     return 0;
